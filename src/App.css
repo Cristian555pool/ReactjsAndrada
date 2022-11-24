@@ -1,4 +1,4 @@
-.App {
+*.App {
   text-align: center;
 }
 
@@ -11,6 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.Titulo {
+  color: whitesmoke
 }
 
 .App-header {
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  background-color: #455;
 }
