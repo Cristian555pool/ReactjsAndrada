@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar'
+//import Button from './Components/Button/Button';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import Counter from './Components/Counter/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/*<Button label={'cancelar'} background='blue' />
+      <Button label={'aceptar'} background='green' action={() => console.log('acepte')} />
+      <button>boton</button>*/}
+      <Navbar />
+      <ItemListContainer greeting={'Estos son nuestros productos disponibles!! ^^'}/>
+      {/*<header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" /> 
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +26,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header>*/}
+      <Counter />
     </div>
   );
 }

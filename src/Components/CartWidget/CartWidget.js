@@ -1,4 +1,4 @@
-import cart from './assets/cartr1.jpg'
+import cart from './assets/cartr1.jpeg'
 
 const CartWidget = () => {
     return (
@@ -8,3 +8,4 @@ const CartWidget = () => {
         </div>
     )
 }
+export default CartWidget
